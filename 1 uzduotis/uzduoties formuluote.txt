@@ -1,0 +1,2 @@
+﻿Reikėjo apskaičiuoti stačiakampio plotą, perimetrą ir įstrižainės ilgį. 
+Taip pat reikėjo rasti stačiakampio kampų koordinates ir įstrižainių susikirtimo taško koordinates.

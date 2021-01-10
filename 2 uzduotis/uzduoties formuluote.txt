@@ -1,0 +1,2 @@
+﻿Reikėjo atspausdinti savo vardą iš ASCII lentelės. 
+Sukurti ir atspausdinti paveikslėlį.
