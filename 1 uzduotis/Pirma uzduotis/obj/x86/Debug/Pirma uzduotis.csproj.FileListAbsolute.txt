@@ -1,0 +1,8 @@
+D:\Programavimo mokslai\3 semestras(2 k)\objektinis programavimas\Pirma uzduotis\Pirma uzduotis\bin\Debug\Pirma uzduotis.exe
+D:\Programavimo mokslai\3 semestras(2 k)\objektinis programavimas\Pirma uzduotis\Pirma uzduotis\bin\Debug\Pirma uzduotis.pdb
+D:\Programavimo mokslai\3 semestras(2 k)\objektinis programavimas\Pirma uzduotis\Pirma uzduotis\obj\x86\Debug\Pirma uzduotis.exe
+D:\Programavimo mokslai\3 semestras(2 k)\objektinis programavimas\Pirma uzduotis\Pirma uzduotis\obj\x86\Debug\Pirma uzduotis.pdb
+D:\Server\AnzTak\viko\5 semestras\Ruby\Uzduotys\1 uzduotis\Pirma uzduotis\obj\x86\Debug\Pirma uzduotis.exe
+D:\Server\AnzTak\viko\5 semestras\Ruby\Uzduotys\1 uzduotis\Pirma uzduotis\obj\x86\Debug\Pirma uzduotis.pdb
+D:\Server\AnzTak\viko\5 semestras\Ruby\Uzduotys\1 uzduotis\Pirma uzduotis\bin\Debug\Pirma uzduotis.exe
+D:\Server\AnzTak\viko\5 semestras\Ruby\Uzduotys\1 uzduotis\Pirma uzduotis\bin\Debug\Pirma uzduotis.pdb

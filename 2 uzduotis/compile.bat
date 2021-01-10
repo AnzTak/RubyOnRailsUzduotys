@@ -1,0 +1,1 @@
+gcc pic.c -o pic
