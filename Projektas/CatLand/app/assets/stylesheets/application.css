@@ -1,0 +1,134 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.noselect{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.noselect-border:focus{
+	outline: 0;
+}
+
+.opacity-1 {opacity: .1;}
+.opacity-2 {opacity: .2;}
+.opacity-3 {opacity: .3;}
+.opacity-4 {opacity: .4;}
+.opacity-5 {opacity: .5;}
+.opacity-6 {opacity: .6;}
+.opacity-7 {opacity: .7;}
+.opacity-8 {opacity: .8;}
+.opacity-9 {opacity: .9;}
+
+.w-100px {
+	width: 100% !important;
+	max-width: 100px !important;
+}
+.w-110px {
+	width: 100% !important;
+	max-width: 110px !important;
+}
+.w-120px {
+	width: 100% !important;
+	max-width: 120px !important;
+}
+.w-130px {
+	width: 100% !important;
+	max-width: 130px !important;
+}
+.w-140px {
+	width: 100% !important;
+	max-width: 140px !important;
+}
+.w-150px {
+	width: 100% !important;
+	max-width: 150px !important;
+}
+.w-160px {
+	width: 100% !important;
+	max-width: 160px !important;
+}
+.w-170px {
+	width: 100% !important;
+	max-width: 170px !important;
+}
+.w-180px {
+	width: 100% !important;
+	max-width: 180px !important;
+}
+.w-190px {
+	width: 100% !important;
+	max-width: 190px !important;
+}
+.w-200px {
+	width: 100% !important;
+	max-width: 200px !important;
+}
+.w-0 {width: 0 !important;}
+@media (min-width: 576px) {
+	.w-sm-0 {width: 0% !important;}
+	.w-sm-25 {width: 25% !important;}
+	.w-sm-50 {width: 50% !important;}
+	.w-sm-75 {width: 75% !important;}
+	.w-sm-100 {width: 100% !important;}
+	.w-sm-auto {width: auto !important;}
+	.hide-sm {display: none !important;}
+	.container-fluid-sm {padding-right: 15px;padding-left: 15px;}
+}
+@media (min-width: 768px) {
+	.w-md-0 {width: 0% !important;}
+	.w-md-25 {width: 25% !important;}
+	.w-md-50 {width: 50% !important;}
+	.w-md-75 {width: 75% !important;}
+	.w-md-100 {width: 100% !important;}
+	.w-md-auto {width: auto !important;}
+	.hide-md {display: none !important;}
+	.container-fluid-md {padding-right: 15px;padding-left: 15px;}
+}
+@media (min-width: 992px) {
+	.w-lg-0 {width: 0% !important;}
+	.w-lg-25 {width: 25% !important;}
+	.w-lg-50 {width: 50% !important;}
+	.w-lg-75 {width: 75% !important;}
+	.w-lg-100 {width: 100% !important;}
+	.w-lg-auto {width: auto !important;}
+	.hide-lg {display: none !important;}
+	.container-fluid-lg {padding-right: 15px;padding-left: 15px;}
+}
+@media (min-width: 1200px) {
+	.w-xl-0 {width: 0% !important;}
+	.w-xl-25 {width: 25% !important;}
+	.w-xl-50 {width: 50% !important;}
+	.w-xl-75 {width: 75% !important;}
+	.w-xl-100 {width: 100% !important;}
+	.w-xl-auto {width: auto !important;}
+	.hide-xl {display: none !important;}
+	.container-fluid-xl {padding-right: 15px;padding-left: 15px;}
+}
+@media (max-width: 575px) {
+	.hide-off-sm {display: none !important;}
+}
+@media (max-width: 767px) {
+	.hide-off-md {display: none !important;}
+}
+@media (max-width: 991px) {
+	.hide-off-lg {display: none !important;}
+}
+@media (max-width: 1199px) {
+	.hide-off-xl {display: none !important;}
+}

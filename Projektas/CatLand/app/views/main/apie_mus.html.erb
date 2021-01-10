@@ -1,0 +1,54 @@
+<%= render(:template => 'res/header') %>
+
+<%= render(:template => 'res/menu', :locals => {
+	:setMenuName => 'Apie mus'
+}) %>
+
+<div>
+	<div>
+		<h1><%=Lang.get("Modernus kačių viešbutis Vilniuje", cookies)%></h1>
+	</div>
+	<div class="pag-icon">
+		<div>
+			<img src="<%=asset_path('apie/comfort_2.jpg')%>" alt="comfort" />
+			<span>
+				<%=Lang.get('ApieMus:text1', cookies).html_safe%>
+			</span>
+		</div>
+
+		<div>
+			<img src="<%=asset_path('apie/food.jpg')%>" alt="food" />
+			<span>
+				<%=Lang.get('ApieMus:text2', cookies).html_safe%>
+			</span>
+		</div>
+
+		<div>
+			<img src="<%=asset_path('apie/care.jpg')%>" alt="care" />
+			<span>
+				<%=Lang.get('ApieMus:text3', cookies).html_safe%>
+			</span>
+		</div>
+		<div>
+			<img src="<%=asset_path('apie/camera_2.jpg')%>" alt="camera" />
+			<span>
+				<%=Lang.get('ApieMus:text4', cookies).html_safe%>
+			</span>
+		</div>
+
+		<div>
+			<img src="<%=asset_path('apie/play_2.jpg')%>" alt="play" />
+			<span>
+				<%=Lang.get('ApieMus:text5', cookies).html_safe%>
+			</span>
+		</div>
+
+		<div>
+			<img src="<%=asset_path('apie/doctor_5.jpg')%>" alt="doctor" />
+			<span>
+				<%=Lang.get('ApieMus:text6', cookies).html_safe%>
+			</span>
+		</div>
+
+	</div>	
+</div>

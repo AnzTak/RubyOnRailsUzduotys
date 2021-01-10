@@ -1,0 +1,54 @@
+<%
+if cookies['lang'] != nil
+	activeLT = ''
+	activeEN = ''
+	activeRU = ''
+	case cookies['lang'].downcase()
+		when 'lt'; activeLT = ' active'
+		when 'en'; activeEN = ' active'
+		when 'ru'; activeRU = ' active'
+	end
+else
+	activeLT = ''
+	activeEN = ' active'
+	activeRU = ''
+end
+%>
+<header>
+	<div class="logo">
+		<img src="<%=asset_path('cat2.png')%>" alt="cat" title="catland" />
+		<span>CatLand</span>
+	</div>
+	<div class="paws">
+		<img src="<%=asset_path('paws-a2.png')%>" alt="paws" title="paws" />
+	</div>
+
+	<div>
+		<% if session[:on] != nil %>
+		<a id="fullname-id" class="naudotojo-mygtukai" href="/paskyra">
+			<% if session[:fullname] != nil %>
+				<%=session[:fullname]%>
+			<% else %>
+				<%=session[:name]%>
+			<% end %>
+		<% else %>
+		<a id="fullname-id" class="naudotojo-mygtukai" href="/prisijungimas">
+			<%=Lang.get('Prisijungti', cookies)%>
+		<% end %>
+			<img src="<%=asset_path('user2.png')%>" alt="user" />
+		</a>
+		
+		<% if session[:on] != nil %>
+		<a class="naudotojo-mygtukai" href="/logout">
+			<%=Lang.get('Logout', cookies)%>
+			<img src="<%=asset_path('logout.png')%>" alt="logout" />
+		</a>
+		<% end %>
+		
+		<div class="langblock">
+			<div onclick="setLanguage('lt')" class="lang<%=activeLT%>">LT</div>
+			<div onclick="setLanguage('en')" class="lang<%=activeEN%>">EN</div>
+			<div onclick="setLanguage('ru')" class="lang<%=activeRU%>">RU</div>
+		</div>
+	</div>
+</header>

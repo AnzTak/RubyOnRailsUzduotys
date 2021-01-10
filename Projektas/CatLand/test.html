@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SVS - test</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="app/assets/stylesheets/application.css">
+<link rel="stylesheet" href="app/assets/stylesheets/header.css">
+<link rel="stylesheet" href="app/assets/stylesheets/menu.css">
+<link rel="stylesheet" href="app/assets/stylesheets/page.css">
+<link rel="stylesheet" href="app/assets/stylesheets/gallery.css">
+<link rel="stylesheet" href="app/assets/stylesheets/contacts.css">
+<link rel="stylesheet" href="app/assets/stylesheets/newjob.css">
+<link rel="stylesheet" href="app/assets/stylesheets/main.css">
+<link rel="stylesheet" href="app/assets/stylesheets/rightside.css">
+<link rel="stylesheet" href="test.css">
+</head>
+<body>
+	
+<header onmouseleave="out_menu(0)">
+	<div class="logo noselect">
+		<h1>SVS</h1>
+		<h2>System</h2>
+	</div>
+	
+	<div class="log-info" onmouseover="this.getElementsByTagName('div')[1].style.minWidth = (this.offsetWidth-12) + 'px';" onclick="out_menu(2)">
+		<label>
+			<input type="checkbox" class="dropdownbox" id="checkbox_id1" />
+			<div>
+				get_name
+				<img src="app\assets\images\user.png" alt="user" height="16px" width="16px">
+				<img src="app\assets\images\drop.png" alt="drop" height="8px" width="8px">
+				<div class="dropdownbox-table">
+					<a>
+						<img src="app\assets\images\logout.png" alt="logout" height="16px" width="16px">
+						Log out
+					</a>
+				</div>
+			</div>
+		</label>
+	</div>
+
+	<div class="log-info" onmouseover="this.getElementsByTagName('div')[1].style.minWidth = (this.offsetWidth-12) + 'px';" onclick="out_menu(1)">
+		<label>
+			<input type="checkbox" class="dropdownbox" id="checkbox_id2" />
+			<div>
+				Language (EN)
+				<img src="app\assets\images\drop.png" alt="drop" height="8px" width="8px">
+				<div class="dropdownbox-table">
+					<a onclick="location.reload();">
+						Lietuvių (LT)
+					</a><br>
+					<a onclick="location.reload();">
+						English (EN)
+					</a><br>
+				</div>
+			</div>
+		</label>
+	</div>
+</header>
+	
+<div id="page">
+	
+<div id="menu">
+	<ul>
+		<a href="main">
+			<li disabled="true">
+				<div>Home</div>
+			</li>
+		</a>
+		<a href="new-job">
+			<li disabled="false">
+				<div>New Job</div>
+			</li>
+		</a>
+		<a href="">
+			<li disabled="false">
+				<div>Gallery</div>
+			</li>
+		</a>
+		<a href="">
+			<li disabled="false">
+				<div>Contacts</div>
+			</li>
+		</a>
+	</ul>
+</div>
+
+<div id="content">
+
+<div id="main-box">
+	<h2>Sprendimu valdymo sistema</h2>
+	<div>
+		<h4>Atlekami darbai</h4>
+		
+		<div class="job-msg">
+			<div>
+				<div class="job-msg-title">
+					<div>vardas pavarde</div><br>
+					<div>Data</div>
+					<div>kaina</div>
+					<div>faktura</div><br>
+				</div>
+				<div class="job-msg-info">
+					<div>priv</div>
+					<div>tipas</div>
+				</div>
+				<div class="job-msg-des">
+					<div>
+					<fieldset>
+						<legend>Aprašymas</legend>
+						aprasas
+					</fieldset>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+				<div class="job-msg">
+			<div>
+				<div class="job-msg-title">
+					<div>vardas pavarde</div><br>
+					<div>Data</div>
+					<div>kaina</div>
+					<div>faktura</div><br>
+				</div>
+				<div class="job-msg-info">
+					<div>priv</div>
+					<div>tipas</div>
+				</div>
+				<div class="job-msg-des">
+					<div>
+					<fieldset>
+						<legend>Aprašymas</legend>
+						<div>
+						aprasas Energetikos ir aplinkosaugos sektorinio profesinio komiteto sprendimas: aprobuoti ventiliacijos, oro kondicionavimo sistemų gamintoj o ir montuotojo modulinę profesinio mokymo programą.
+						</div>
+					</fieldset>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+</div>
+
+<div id="rightside">
+	<div id="problems-block">
+		<h3>Problems</h3>
+		<table>
+			<tr>
+				<th>Description</th>
+				<th>Time</th>
+				<th>Date</th>
+			</tr>
+			<tr>
+				<td>Programinės ir techninės įrangos visuma, skirta problemų registravimui, stebėjimui ir valdymui.</td>
+				<td>13:50</td>
+				<td>2019/09/11</td>
+			</tr>
+			<tr>
+				<td>Problemų valdymo grupė.</td>
+				<td>16:00</td>
+				<td>2019/10/05</td>
+			</tr>
+			<tr>
+				<td>Problema, kuri yra identifikuojama dėl nuolat pasikartojančių ar neaiškaus sprendimo IT incidentų.</td>
+				<td>13:50</td>
+				<td>2019/10/22</td>
+			</tr>
+		</table>
+	</div>
+	<div id="list-block">
+		<h3>Susiję dokumentai</h3>
+		<ol>
+			<li>IT incidentų valdymo procesas</li>
+			<li>Keitimų valdymo procesas</li>
+			<li>Konfigūracinių vienetų valdymo procesas</li>
+			<li>Paslaugų lygio valdymo procesas</li>
+			<li>Problemų valdymo procesas</li>
+			<li>Žinių valdymo procesas</li>
+		</ol>
+	</div>
+</div>
+
+</div>
+
+<hr />
+<footer>
+	2019 &copy; SVS
+</footer>
+
+</body>
+</html>

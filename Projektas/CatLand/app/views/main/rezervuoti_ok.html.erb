@@ -1,0 +1,15 @@
+<%= render(:template => 'res/header') %>
+
+<%= render(:template => 'res/menu', :locals => {
+	:setMenuName => 'Rezervuoti'
+}) %>
+
+<div>
+	<h2 id="rezervavimo_pranesimas"><%=Lang.get("Ačiū kad rezervavote", cookies)%></h2>
+	<div class="text-center">
+		<button class="btn btn-dark" onclick="window.location = '/rezervuoti';">
+			<%=Lang.get("Gerai", cookies)%>
+		</button>
+	</div>
+</div>
+

@@ -1,0 +1,701 @@
+{
+	"Languages":["EN","LT","RU"],
+	"Translation":{
+		"JS_Warning":{
+			"EN":"Some features may not work properly, please enable JavaScript!",
+			"RU":"Некоторые функции могут не работать должным образом, пожалуйста, включите JavaScript!",
+			"LT":"Kai kurios funkcijos gali neveikti tinkamai, prašome įjungti JavaScript!"
+		},
+		"Login_Title":{
+			"EN":"Login to the system",
+			"RU":"Вход в систему",
+			"LT":"Prisijungti prie sistemos"
+		},
+		"Login_Name":{
+			"EN":"Login name",
+			"RU":"Логин",
+			"LT":"Prisijungimo vardas"
+		},
+		"Name":{
+			"EN":"Name",
+			"RU":"Имя",
+			"LT":"Vardas"
+		},
+		"Login_Password":{
+			"EN":"Password",
+			"RU":"Пароль",
+			"LT":"Slaptažodis"
+		},
+		"Login":{
+			"EN":"Login",
+			"RU":"Войти",
+			"LT":"Prisijungti"
+		},
+		"Logout":{
+			"EN":"Logout",
+			"RU":"Выйти",
+			"LT":"Atsijungti"
+		},
+		"Login_warning":{
+			"EN":"The username or password is incorrect. Please try again.",
+			"RU":"Неверное имя пользователя или пароль. Пожалуйста, попробуйте еще раз.",
+			"LT":"Neteisingas naudotojo vardas arba slaptažodis. Prašome, bandyti dar kartą."
+		},
+		"Main":{
+			"EN":"Main",
+			"LT":"Pagrindinis",
+			"RU":"Основной"
+		},
+		"Settings":{
+			"EN":"Settings",
+			"LT":"Nustatymai",
+			"RU":"Настройки"
+		},
+		"Templates":{
+			"EN":"Templates",
+			"LT":"Šablonai",
+			"RU":"Шаблоны"
+		},
+		"Management":{
+			"EN":"Management",
+			"RU":"Управление",
+			"LT":"Valdymas"
+		},
+		"connections":{
+			"EN":"Connection list",
+			"LT":"Prisijungimų sąrašas",
+			"RU":"Список подключений"
+		},
+		"Browser":{
+			"EN":"Browser",
+			"LT":"Naršyklė",
+			"RU":"Браузер"
+		},
+		"Code":{
+			"EN":"Code",
+			"LT":"Kodas",
+			"RU":"Код"
+		},
+		"Action":{
+			"EN":"Action",
+			"LT":"Veiksmas",
+			"RU":"Действие"
+		},
+		"Kick":{
+			"EN":"Kick",
+			"LT":"Mesti",
+			"RU":"Сбросить"
+		},
+		"You":{
+			"EN":"You",
+			"LT":"Tu",
+			"RU":"Вы"
+		},
+		"Yes":{
+			"EN":"Yes",
+			"LT":"Taip",
+			"RU":"Да"
+		},
+		"No":{
+			"EN":"No",
+			"LT":"Ne",
+			"RU":"Нет"
+		},
+		"UserSettings":{
+			"EN":"User settings",
+			"LT":"Naudotojo nustatymai",
+			"RU":"Настройки пользователя"
+		},
+		"User":{
+			"EN":"User",
+			"LT":"Naudotojas",
+			"RU":"Пользователь"
+		},
+		"Users":{
+			"EN":"Users",
+			"LT":"Naudotojai",
+			"RU":"Пользователи"
+		},
+		"Change":{
+			"EN":"Change",
+			"LT":"Keisti",
+			"RU":"Изменить"
+		},
+		"Create":{
+			"EN":"Create",
+			"LT":"Sukurti",
+			"RU":"Созидать"
+		},
+		"Failed":{
+			"EN":"Failed",
+			"LT":"Nepavyko",
+			"RU":"Не получилось"
+		},
+		"ChangeUserName":{
+			"EN":"Change user name",
+			"LT":"Keisti naudotojo vardą",
+			"RU":"Изменить имя пользователя"
+		},
+		"ChangeUserLoginName":{
+			"EN":"Change user login name",
+			"LT":"Keisti naudotojo prisijungimo vardą",
+			"RU":"Изменить имя (логин) пользователя"
+		},
+		"NameChanged":{
+			"EN":"Name changed",
+			"LT":"Vardas pakeistas",
+			"RU":"Имя изменено"
+		},
+		"ChangeUserPassword":{
+			"EN":"Change user password",
+			"LT":"Keisti naudotojo slaptažodį",
+			"RU":"Изменить пароль пользователя"
+		},
+		"OldPassword":{
+			"EN":"Old password",
+			"RU":"Прежний пароль",
+			"LT":"Senas slaptažodis"
+		},
+		"NewPassword":{
+			"EN":"New password",
+			"RU":"Новый пароль",
+			"LT":"Naujas slaptažodis"
+		},
+		"Password":{
+			"EN":"Password",
+			"RU":"Пароль",
+			"LT":"Slaptažodis"
+		},
+		"ConfirmPassword":{
+			"EN":"Confirm new password",
+			"RU":"Подтвердите новый пароль",
+			"LT":"Patvirtinkite naują slaptažodį"
+		},
+		"RestorePassword":{
+			"EN":"Restore password",
+			"RU":"Восстановить пароль",
+			"LT":"Atkurti slaptažodį"
+		},
+		"PasswordRestored":{
+			"EN":"Password restored",
+			"RU":"Пароль восстановлен",
+			"LT":"Slaptažodis atkurtas"
+		},
+		"PasswordChanged":{
+			"EN":"Password changed",
+			"RU":"Пароль изменен",
+			"LT":"Slaptažodis pakeistas"
+		},
+		"Loading":{
+			"EN":"Loading",
+			"RU":"Загрузка",
+			"LT":"Pakrovimas"
+		},
+		"CurrentNameIsNotAllowed":{
+			"EN":"Current name is not allowed to use, enter another name",
+			"RU":"Текущее имя не разрешено использовать, введите другое имя",
+			"LT":"Esamu vardu neleidžiama naudotis, įveskite kitą vardą"
+		},
+		"PasswordIsIncorrect":{
+			"EN":"Password is incorrect. Please try again.",
+			"RU":"Неверный пароль. Пожалуйста, попробуйте еще раз.",
+			"LT":"Slaptažodis neteisingas. Prašome bandyti dar kartą."
+		},
+		"UserNameIsIncorrect":{
+			"EN":"User name or password is incorrect. Please try again.",
+			"RU":"Имя пользователя или пароль неверны. Пожалуйста, попробуйте еще раз.",
+			"LT":"Naudotojo vardas arba slaptažodis yra neteisingas. Prašome bandyti dar kartą."
+		},
+		"Delete":{
+			"EN":"Delete",
+			"RU":"Удалить",
+			"LT":"Ištrinti"
+		},
+		"Deleted":{
+			"EN":"Deleted",
+			"RU":"Удалено",
+			"LT":"Ištrinta"
+		},
+		"Restore":{
+			"EN":"Restore",
+			"RU":"Восстановить",
+			"LT":"Atkurti"
+		},
+		"Restored":{
+			"EN":"Restored",
+			"RU":"Восстановлен",
+			"LT":"Atkurtas"
+		},
+		"Remove":{
+			"EN":"Remove",
+			"RU":"Удалять",
+			"LT":"Pašalinti"
+		},
+		"Cancel":{
+			"EN":"Cancel",
+			"RU":"Отмена",
+			"LT":"Atšaukti"
+		},
+		"RemoveUser":{
+			"EN":"Remove user from the system",
+			"RU":"Удалить пользователя из системы",
+			"LT":"Pašalinkite naudotoją iš sistemos"
+		},
+		"Availability":{
+			"EN":"Availability",
+			"RU":"Доступность",
+			"LT":"Prieinamumas"
+		},
+		"Statistics":{
+			"EN":"Statistics",
+			"RU":"Статистика",
+			"LT":"Statistika"
+		},
+		"VisitCount":{
+			"EN":"Visit count",
+			"RU":"Счетчик посещений",
+			"LT":"Apsilankymų skaičius"
+		},
+		"LastVisit":{
+			"EN":"Last visit (Date, Time)",
+			"RU":"Последнее посещение (дата, время)",
+			"LT":"Paskutinis apsilankymas (data, laikas)"
+		},
+		"Date":{
+			"EN":"Date",
+			"RU":"Дата",
+			"LT":"Data"
+		},
+		"IPAddress":{
+			"EN":"IP address",
+			"RU":"IP адрес",
+			"LT":"IP adresas"
+		},
+		"OperatingSystem":{
+			"EN":"Operating system",
+			"RU":"Операционная система",
+			"LT":"Operacinė sistema"
+		},
+		"Files":{
+			"EN":"Files",
+			"RU":"Файлы",
+			"LT":"Failai"
+		},
+		"File":{
+			"EN":"File",
+			"RU":"Файл",
+			"LT":"Failas"
+		},
+		"AddFile":{
+			"EN":"Add file",
+			"RU":"Добавить файл",
+			"LT":"Pridėti failą"
+		},
+		"Browse":{
+			"EN":"Browse",
+			"RU":"Посмотреть",
+			"LT":"Naršyti"
+		},
+		"Upload":{
+			"EN":"Upload",
+			"RU":"Загрузить",
+			"LT":"Įkelti"
+		},
+		"NoFileSelected":{
+			"EN":"No file selected",
+			"RU":"Файл не выбран",
+			"LT":"Nepasirinktas failas"
+		},
+		"DeleteFile":{
+			"EN":"Delete file",
+			"RU":"Удалить файл",
+			"LT":"Ištrinti failą"
+		},
+		"FileName":{
+			"EN":"File name",
+			"RU":"Имя файла",
+			"LT":"Failo pavadinimas"
+		},
+		"File already exists.":{
+			"EN":"File already exists.",
+			"RU":"Файл уже существует.",
+			"LT":"Failas jau egzistuoja."
+		},
+		"Your file is too large.":{
+			"EN":"Your file is too large.",
+			"RU":"Ваш файл слишком большой.",
+			"LT":"Jūsų failas per didelis."
+		},
+		"The file has been uploaded.":{
+			"EN":"The file has been uploaded.",
+			"RU":"Файл был загружен.",
+			"LT":"Failas buvo įkeltas."
+		},
+		"There was an error uploading your file.":{
+			"EN":"There was an error uploading your file.",
+			"RU":"При загрузке файла произошла ошибка.",
+			"LT":"Įkeliant failą įvyko klaida."
+		},
+		"File for uploading is not selected.":{
+			"EN":"File for uploading is not selected.",
+			"RU":"Файл для загрузки не выбран.",
+			"LT":"Įkėlimo failas nepasirinktas."
+		},
+		"View":{
+			"EN":"View",
+			"RU":"Смотреть",
+			"LT":"Žiūrėti"
+		},
+		"Download":{
+			"EN":"Download",
+			"RU":"Скачать",
+			"LT":"Parsisiųsti"
+		},
+		"FirstName":{
+			"EN":"First name",
+			"RU":"Имя",
+			"LT":"Vardas"
+		},
+		"LastName":{
+			"EN":"Last name",
+			"RU":"Фамилия",
+			"LT":"Pavardė"
+		},
+		"Copy":{
+			"EN":"Copy",
+			"RU":"Копировать",
+			"LT":"Kopijuoti"
+		},
+		"No records":{
+			"EN":"No records",
+			"RU":"Нет записей",
+			"LT":"Nėra įrašų"
+		},
+		"Keep me logged in":{
+			"EN":"Keep me logged in",
+			"RU":"Оставить меня залогиненным",
+			"LT":"Palikti mane prisijungus"
+		},
+		"Option":{
+			"EN":"Option",
+			"RU":"Опция",
+			"LT":"Pasirinkimas"
+		},
+		"Edit":{
+			"EN":"Edit",
+			"RU":"Редактировать",
+			"LT":"Redaguoti"
+		},
+		"Save":{
+			"EN":"Save",
+			"RU":"Сохранить",
+			"LT":"Išsaugoti"
+		}
+
+
+		,
+		"Language":{
+			"EN":"Language",
+			"LT":"Kalba",
+			"RU":"Язык"
+		},
+		"Pagrindinis":{
+			"EN":"Home",
+			"RU":"Главное",
+			"LT":"Pagrindinis"
+		},
+		"Apie mus":{
+			"EN":"About us",
+			"RU":"О нас",
+			"LT":"Apie mus"
+		},
+		"Kainos":{
+			"EN":"Prices",
+			"RU":"Цены",
+			"LT":"Kainos"
+		},
+		"Galerija":{
+			"EN":"Gallery",
+			"RU":"Галерея",
+			"LT":"Galerija"
+		},
+		"Kontaktai":{
+			"EN":"Contacts",
+			"RU":"Контакты",
+			"LT":"Kontaktai"
+		},
+		"Prisijungti":{
+			"EN":"Login",
+			"RU":"Войти",
+			"LT":"Prisijungti"
+		},
+		"Confirm":{
+			"EN":"Confirm",
+			"RU":"Подтвердить",
+			"LT":"Patvirtinti"
+		},
+		"Paskyra":{
+			"EN":"Account",
+			"RU":"Профиль",
+			"LT":"Paskyra"
+		},
+		"Registration":{
+			"EN":"Registration",
+			"RU":"Регистрация",
+			"LT":"Registracija"
+		},
+		"Register":{
+			"EN":"Register",
+			"RU":"Регистрироваться",
+			"LT":"Registruotis"
+		},
+		"Recover password":{
+			"EN":"Recover password",
+			"RU":"Восстановить пароль",
+			"LT":"Atkurti slaptažodį"
+		},
+		"Confirm password":{
+			"EN":"Confirm password",
+			"RU":"Подтвердить пароль",
+			"LT":"Patvirtinti slaptažodį"
+		},
+		"Email":{
+			"EN":"Email",
+			"RU":"Эл.почта",
+			"LT":"El.paštas"
+		},
+		"Phone":{
+			"EN":"Phone number",
+			"RU":"Номер телефона",
+			"LT":"Telefono numeris"
+		},
+		"Choose file":{
+			"EN":"Choose file",
+			"RU":"Выбрать файл",
+			"LT":"Pasirinkti failą"
+		},
+		"No file selected.":{
+			"EN":"No file selected.",
+			"RU":"Файл не выбран.",
+			"LT":"Nepasirinktas failas."
+		},
+		"Upload Image":{
+			"EN":"Upload Image",
+			"RU":"Загрузить изображение",
+			"LT":"Įkelti paveikslėlį"
+		},
+		"Kambario tipas":{
+			"EN":"Room type",
+			"RU":"Тип номера",
+			"LT":"Kambario tipas"
+		},
+		"Standartinis":{
+			"EN":"Standard",
+			"RU":"Стандартный",
+			"LT":"Standartinis"
+		},
+		"Vidutinis":{
+			"EN":"Medium",
+			"RU":"Средний",
+			"LT":"Vidutinis"
+		},
+		"Didelis":{
+			"EN":"Large",
+			"RU":"Большой",
+			"LT":"Didelis"
+		},
+		"Kambario plotas m":{
+			"EN":"Room area m",
+			"RU":"Площадь помещения м",
+			"LT":"Kambario plotas m"
+		},
+		"Kaina parai Eur":{
+			"EN":"Price per day Eur",
+			"RU":"Цена за сутки Евр",
+			"LT":"Kaina parai Eur"
+		},
+		"Ačiū kad rezervavote":{
+			"EN":"Thanks for booking",
+			"RU":"Спасибо за бронирование",
+			"LT":"Ačiū kad rezervavote"
+		},
+		"Augintinio vardas":{
+			"EN":"Pet's name",
+			"RU":"Имя питомца",
+			"LT":"Augintinio vardas"
+		},
+		"Augintinio lytis":{
+			"EN":"Pet's gender",
+			"RU":"Пол питомца",
+			"LT":"Augintinio lytis"
+		},
+		"Patinas":{
+			"EN":"Male",
+			"RU":"Cамец",
+			"LT":"Patinas"
+		},
+		"Patele":{
+			"EN":"Female",
+			"RU":"Cамка",
+			"LT":"Patele"
+		},
+		"Sterilizacija":{
+			"EN":"Sterilization",
+			"RU":"Стерилизация",
+			"LT":"Sterilizacija"
+		},
+		"Nuo:":{
+			"EN":"From",
+			"RU":"От",
+			"LT":"Nuo"
+		},
+		"Iki:":{
+			"EN":"Until",
+			"RU":"До",
+			"LT":"Iki"
+		},
+		"Kambario tipas:":{
+			"EN":"Room type",
+			"RU":"Тип номера",
+			"LT":"Kambario tipas"
+		},
+		"Rezervuoti":{
+			"EN":"Booking",
+			"RU":"Забронировать",
+			"LT":"Rezervuoti"
+		},
+		"Modernus kačių viešbutis Vilniuje":{
+			"EN":"Modern cat hotel in Vilnius",
+			"RU":"Современный кошачий отель в Вильнюсе",
+			"LT":"Modernus kačių viešbutis Vilniuje"
+		},
+		"Gerai":{
+			"EN":"Okay",
+			"RU":"Хорошо",
+			"LT":"Gerai"
+		},
+		"Atliktas":{
+			"EN":"Completed",
+			"RU":"Выполнен",
+			"LT":"Atliktas"
+		},
+		"Adresas:":{
+			"EN":"Address:",
+			"RU":"Адрес:",
+			"LT":"Adresas:"	
+		},
+		"Telefonas:":{
+			"EN":"Phone:",
+			"RU":"Телефон:",
+			"LT":"Telefonas:"	
+		},
+		"El.paštas:":{
+			"EN":"Email:",
+			"RU":"Эл.почта:",
+			"LT":"El.paštas:"	
+		},
+		"Žalgirio gatvė 52, Vilnius":{
+			"EN":"Zalgirio street 52, Vilnius",
+			"RU":"Ул. Жальгирё 52, Вильнюс",
+			"LT":"Žalgirio gatvė 52, Vilnius"	
+		},
+		"Užsakovo vardas":{
+			"EN":"Customer name",
+			"RU":"Имя заказчика",
+			"LT":"Užsakovo vardas"
+		},
+		"Užsakovo pavardė":{
+			"EN":"Customer surname",
+			"RU":"Фамилия заказчика",
+			"LT":"Užsakovo pavardė"
+		},
+		"Date of reservation":{
+			"EN":"Date of reservation",
+			"RU":"Дата заказа",
+			"LT":"Rezervavimo data"
+		},
+		"Gauti rezervavimo lapą":{
+			"EN":"Get a booking form",
+			"RU":"Получить форму бронирования",
+			"LT":"Gauti rezervavimo lapą"
+		},
+		"Rezervavimo forma":{
+			"EN":"Reservation form",
+			"RU":"Форма резервирования",
+			"LT":"Rezervavimo forma"
+		},
+		"Recover":{
+			"EN":"Recover",
+			"RU":"Восстановить",
+			"LT":"Atkurti"
+		},
+		"Rezervacija":{
+			"EN":"Reservation",
+			"RU":"Резервирование",
+			"LT":"Rezervacija"
+		},
+		"PassRecoverMsg":{
+			"EN":"Your password has been reset",
+			"RU":"Ваш пароль был восстановлен",
+			"LT":"Jūsų slaptažodis buvo atkurtas"
+		},
+		"RecoverMsgOK":{
+			"EN":"A new password has been sent to your mail",
+			"RU":"На вашу почту отправлен новый пароль",
+			"LT":"Į jūsų paštą buvo išsiustas naujas slaptažodis"
+		},
+		"RecoverMsgFail":{
+			"EN":"Invalid login name or email address",
+			"RU":"Неверное имя или почтовый адрес",
+			"LT":"Netinkamas prisijungimo vardas arba pašto adresas"
+		},
+		"RecoverMsgError":{
+			"EN":"Mail server not found",
+			"RU":"Почтовый сервер не найден",
+			"LT":"Pašto serveris nerastas"
+		}
+
+		,
+		"Main:text":{
+			"EN":"<p>CatLand is a real cat hotel. We have a separate guarded parking lot, a reception with soft sofas for the reception of guests, there is an online room reservation system. Only as guests we do not accept people, but your pets.</p><p>CatLand offers spacious multi-storey rooms that meet European pet housing standards. Each room has individual video surveillance. Also, each fluffy guest has a separate locker where their personal belongings are stored: food, treats, bedding and, if necessary, medicines. Natural products are stored in the refrigerator. In addition, kitchen and laundry services are available to all.</p><p>Your pet will be in safe hands!</p>",
+			"RU":"<p>CatLand - настоящий кошачий отель. У нас есть отдельная охраняемая автостоянка, рецепция с мягкими диванами для приема гостей, есть система онлайн-бронирования номеров. Только в гости мы принимаем не людей, а ваших питомцев.</p><p>CatLand предлагает просторные многоэтажные номера, соответствующие европейским стандартам содержания домашних животных. В каждой комнате индивидуальное видеонаблюдение. Также у каждого пушистого гостя есть отдельный шкафчик, где хранятся его личные вещи: еда, угощения, постельные принадлежности и, при необходимости, лекарства. Натуральные продукты хранятся в холодильнике. Кроме того, всем доступны кухня и услуги прачечной.</p><p>Ваш питомец будет в надежных руках!</p>",
+			"LT":"<p>CatLand - tai tikrasis kačių viešbutis. Mes turime atskirą saugomą automobilių stovėjimo aikštelę, registratūrą su minkštomis sofomis svečių priėmimui, yra internetinė kambarių rezervavimo sistema. Tik kaip svečius mes priimame ne žmones, o jūsų augintinius.</p><p>CatLand siūlo erdvius kelių aukštų kambarius, atitinkančius europinius augintinių laikymo standartus. Kiekviename kambaryje yra individualus vaizdo stebėjimas. Taip pat kiekvienas pūkuotas svečias turi atskirą spintelę, kurioje laikomi jo asmeniniai daiktai: maistas, skanėstai, kraikas ir, jei reikia, vaistai. Natūralūs produktai laikomi šaldytuve. Be to, virtuvės ir skalbimo paslaugos yra prieinamos visiems.</p><p>Jūsų augintinis bus patikimuose rankose!</p>"
+		},
+		"ApieMus:text1":{
+			"EN":"<p>CatLand offers multi-level glass rooms.</p><p>Glass creates a sense of open space.</p><p>Your cat will never be bored and she will not feel abandoned.</p>",
+			"RU":"<p>CatLand предлагает многоуровневые номера из стекла.</p><p>Стекло создает ощущение открытого пространства.</p><p>Вашей кошке никогда не будет скучно и она не будет чувствовать себя брошенной.</p>",
+			"LT":"<p>CatLand siūlo kelių aukštų kambarius iš stiklo.</p><p>Stiklas sukuria atviros erdvės pojūtį.</p><p>Jūsų katei niekada nebus nuobodu ir ji nesijaus apleista.</p>"
+		},
+		"ApieMus:text2":{
+			"EN":"<p>It is possible to adjust the diet.</p><p>Natural products are stored in the refrigerator.</p>",
+			"RU":"<p>Есть возможность скорректировать рацион питания.</p><p>Натуральные продукты хранятся в холодильнике.</p>",
+			"LT":"<p>Yra galimybė pakorėguoti mytibos racioną.</p><p>Natūralūs produktai laikomi šaldytuve.</p>"
+		},
+		"ApieMus:text3":{
+			"EN":"<p>Your pets will be cared for by qualified staff who love their work and the animals.</p><p>Rooms are cleaned twice a day.</p>",
+			"RU":"<p>О ваших питомцах позаботится квалифицированный персонал, любящий свою работу и животных.</p><p>Уборка комнат два раза в день.</p>",
+			"LT":"<p>Jūsų augintinius prižiūrės kvalifikuotas personalas mylintis savo darbą ir gyvūnus.</p><p>Kambariai valomi du kartus per dieną.</p>"
+		},
+		"ApieMus:text4":{
+			"EN":"<p>Each room has individual video surveillance.</p><p>The video surveillance service is included in the standard service package.</p><p>The hotel staff is with you on WhatsApp feedback.</p>",
+			"RU":"<p>В каждой комнате индивидуальное видеонаблюдение.</p><p>Услуга видеонаблюдения входит в стандартный пакет услуг.</p><p>С вами на обратной связи по WhatsApp находится персонал гостиницы.</p>",
+			"LT":"<p>Kiekviename kambaryje yra individualus vaizdo stebėjimas.</p><p>Vaizdo stebėjimo paslauga yra įtraukta į standartinį paslaugų rinkinį.</p><p>Viešbučio darbuotojai teikia atbulinį ryšį per WhatsApp.</p>"
+		},
+		"ApieMus:text5":{
+			"EN":"<p>There is a bright and clean common area for games. Lots of different toys.</p>",
+			"RU":"<p>Есть светлая и чистая общая зона для игр. Много разных игрушек.</p>",
+			"LT":"<p>Yra šviesi ir švari bendra erdvė žaidimams. Daug įvairių žaislų.</p>"
+		},
+		"ApieMus:text6":{
+			"EN":"<p>Physician's veterinary control.</p>",
+			"RU":"<p>Контроль врача-ветеринара.</p>",
+			"LT":"<p>Gydytojo veterinaro kontrolė.</p>"
+		},
+		"Kontaktai:text":{
+			"EN":"Address: Zalgirio street 52, Vilnius <br>Phone: +370 555 55555 <br>Email: info@catland.lt <br>",
+			"RU":"Адресс:Ул. Жальгирё 52, Вильнюс <br>Телефон: +370 555 55555 <br>Эл.почта: info@catland.lt <br>",
+			"LT":"Adresas: Žalgirio gatvė 52, Vilnius <br>Telefonas: +370 555 55555 <br>El.paštas: info@catland.lt <br>"
+		}
+		
+	}
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="icon" type="image\x-icon" href="<%=asset_path('cl-icon.ico')%>">
+		<title>Cat Land</title>
+		
+		<!-- CSS -->
+		<%= stylesheet_link_tag '/assets/application.css' %>
+		
+		<!-- JavaScript -->
+		<%= javascript_include_tag '/assets/app.js' %>
+		
+	</head>
+	<body>
+		<%= yield %>
+
+		<footer class="mb-5">
+			<hr>
+			<address class="font-italic mx-3">2020 &copy; CatLand </address>
+		</footer>
+		
+		<!-- NodeJS -->
+		<%= javascript_include_tag '/assets/cat-land.js' %>
+		<%= javascript_include_tag '/assets/jquery-3.5.1.slim.min.js' %>
+		<%= javascript_include_tag '/assets/bootstrap.min.js' %>
+	</body>
+</html>

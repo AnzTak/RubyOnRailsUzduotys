@@ -1,0 +1,83 @@
+<%= render(:template => 'res/header') %>
+
+<%= render(:template => 'res/menu') %>
+
+<div class="container">
+	<div class="row my-5">
+		<div class="col-12">
+			<h2 class="text-center">
+				<%=Lang.get("Registration", cookies)%>
+			</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div class="prisijungimas">
+				<form action="" method="post">
+					<div>
+						<input type="text" 
+							   name="fname" 
+							   maxlength="32"
+							   placeholder="<%=Lang.get("FirstName", cookies)%>"
+							   value="" />
+					</div>
+					<div>
+						<input type="text" 
+							   name="lname" 
+							   maxlength="32"
+							   placeholder="<%=Lang.get("LastName", cookies)%>"
+							   value="" />
+					</div>
+					<div>
+						<input type="email" 
+							   name="email" 
+							   maxlength="32"
+							   placeholder="<%=Lang.get("Email", cookies)%>"
+							   value="" />
+					</div>
+					<div>
+						<input type="text" 
+							   name="phone" 
+							   maxlength="9"
+							   placeholder="<%=Lang.get("Phone", cookies)%>"
+							   onkeypress="return (event.charCode >= 48 && event.charCode <= 57) || (event.charCode >= 0 && event.charCode < 10)"
+							   onpaste="event.preventDefault()"
+							   value="" />
+					</div>
+					<hr>
+					<div>
+						<input type="text" 
+							   name="name" 
+							   maxlength="32"
+							   placeholder="<%=Lang.get("Login_Name", cookies)%>"
+							   value="" />
+					</div>
+					<div>
+						<input type="password" 
+							   name="pass1" 
+							   autocomplete="new-password" 
+							   spellcheck="false" 
+							   novalidate="novalidate" 
+							   maxlength="256"
+							   placeholder="<%=Lang.get("Password", cookies)%>" />
+					</div>
+					<div>
+						<input type="password" 
+							   name="pass2" 
+							   autocomplete="new-password" 
+							   spellcheck="false" 
+							   novalidate="novalidate" 
+							   maxlength="256"
+							   placeholder="<%=Lang.get("Confirm password", cookies)%>" />
+					</div>
+					<div class="text-right">
+						<input class="btn btn-dark"
+							   type="submit" 
+							   name="submit" 
+							   value="<%=Lang.get("Register", cookies)%>" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,54 @@
+<% 
+if local_assigns[:setMenuName] == nil
+	setMenuName = ''
+end
+buttons = Array.new
+
+buttons << {:name => 'Pagrindinis', :url => 'main'}
+buttons << {:name => 'Kainos', :url => 'kainos'}
+buttons << {:name => 'Galerija', :url => 'galerija'}
+buttons << {:name => 'Apie mus', :url => 'apie-mus'}
+if session[:on] != nil
+	buttons << {:name => 'Rezervuoti', :url => 'rezervuoti'}
+end
+buttons << {:name => 'Kontaktai', :url => 'kontaktai'}
+%>
+<div class="menu hide-off-lg">
+	<%
+		buttons.each do |button|
+		if button[:name] == setMenuName
+			att = ' class="active"'
+		else
+			att = ' href="'+button[:url]+'"'
+		end
+	%>
+	<a<%=att.html_safe%>><%=Lang.get(button[:name], cookies)%></a>
+	<%end%>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-pink hide-lg">
+	<a class="navbar-brand">
+		<%=Lang.get(setMenuName, cookies)%>
+	</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav">
+			<% 
+				buttons.each do |button|
+				class_att = ' active'
+				if button[:name] == setMenuName
+					att = ' tabindex="-1" aria-disabled="true"'
+					class_att = ' disabled'
+				else
+					att = ' href="'+button[:url]+'"'
+				end
+			%>
+			<a class="nav-item nav-link menu-sel<%=class_att.html_safe%>"<%=att.html_safe%>>
+				<%=Lang.get(button[:name], cookies)%>
+			</a>
+			<%end%>
+		</div>
+	</div>
+</nav>

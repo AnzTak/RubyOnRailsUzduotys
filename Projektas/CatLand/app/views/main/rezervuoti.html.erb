@@ -1,0 +1,135 @@
+<%= render(:template => 'res/header') %>
+
+<%= render(:template => 'res/menu', :locals => {
+	:setMenuName => 'Rezervuoti'
+}) %>
+
+<% if @ivykdyta.count > 0 %>
+<div class="container my-5">
+	<div class="row">
+		<table class="table">
+			<thead>
+				<tr>
+					<th><%=Lang.get("Augintinio vardas", cookies)%></th>
+					<th><%=Lang.get("Augintinio lytis", cookies)%></th>
+					<th><%=Lang.get("Sterilizacija", cookies)%></th>
+					<th><%=Lang.get("Kambario tipas", cookies)%></th>
+					<th><%=Lang.get("Date", cookies)%></th>
+					<th><%=Lang.get("Action", cookies)%></th>
+				</tr>
+			</thead>
+			<tbody>
+				<% @ivykdyta.each do |row|
+					lytis = Lang.get(row[:gender] == 'male' ? "Patinas" : "Patele", cookies)
+					sterilizacija = Lang.get(row[:sterilization] == 1 ? "Yes" : "No", cookies)
+					room = ''
+					case row[:room]
+						when 1; room = Lang.get("Standartinis", cookies)
+						when 2; room = Lang.get("Vidutinis", cookies)
+						when 3; room = Lang.get("Didelis", cookies)
+					end
+					date = row[:nuo].to_s.split[0]
+				%>
+				<tr>
+					<td><%=row[:name]%></td>
+					<td><%=lytis%></td>
+					<td><%=sterilizacija%></td>
+					<td><%=room%></td>
+					<td><%=date%></td>
+					<td>
+						<button class="btn btn-dark btn-sm button-del">
+							<%=Lang.get("Cancel", cookies)%>
+							<div>
+								<form action="" method="post">
+									<div class="d-none">
+										<input type="text" name="idcode" value="<%=row[:id]%>" />
+									</div>
+									<div>
+										<input class="btn btn-dark btn-sm"
+											   type="submit" value="<%=Lang.get("Yes", cookies)%>" 
+											   name="delete_item" />
+									</div>
+								</form>
+							</div>
+						</button>
+					</td>
+				</tr>
+				<% end %>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<% else %>
+
+<div class="container my-5">
+	<div class="row">
+		<div class="col-12">
+			<h2 class="text-center">
+				<%=Lang.get("Rezervacija", cookies)%>
+			</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div class="formos-tipas">
+				<form action="" method="post">
+					<div class="form-item">
+						<span><%=Lang.get("Augintinio vardas", cookies)%>:</span>
+						<input type="text" 
+							   name="name" 
+							   maxlength="32"
+							   spellcheck="false"
+							   autocomplete="off" />
+					</div>
+					<div class="form-item">
+						<span><%=Lang.get("Augintinio lytis", cookies)%>:</span>
+						<div>
+							<label>
+								<input type="radio" name="gender" value="male">
+								<%=Lang.get("Patinas", cookies)%>
+							</label>
+							<label>
+								<input type="radio" name="gender" value="female">
+								<%=Lang.get("Patele", cookies)%>
+							</label>
+						</div>
+					</div>
+					<div class="form-item">
+						<span><%=Lang.get("Sterilizacija", cookies)%></span>
+						<div>
+							<label>
+								<input type="checkbox" name="sterilization">
+								<%=Lang.get("Yes", cookies)%>
+							</label>
+						</div>
+					</div>
+					<div class="form-item">
+						<span><%=Lang.get("Kambario tipas", cookies)%></span>
+						<select name="room_type">
+							<option value="1"><%=Lang.get("Standartinis", cookies)%></option>
+							<option value="2"><%=Lang.get("Vidutinis", cookies)%></option>
+							<option value="3"><%=Lang.get("Didelis", cookies)%></option>
+						</select>
+					</div>
+					<div class="form-item">
+						<span><%=Lang.get("Nuo", cookies)%></span>
+						<input type="date" name="date_nuo" onchange="ChangeFirstDate(this)" />
+					</div>
+					<div class="form-item">
+						<span><%=Lang.get("Iki", cookies)%></span>
+						<input type="date" name="date_iki" onchange="ChangeLastDate(this)" />
+					</div>
+					<div>
+						<input class="btn btn-dark"
+							   type="submit" 
+							   name="submit" 
+							   value="<%=Lang.get("Rezervuoti", cookies)%>" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<% end %>

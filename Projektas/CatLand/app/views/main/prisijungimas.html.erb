@@ -1,0 +1,53 @@
+<%= render(:template => 'res/header') %>
+
+<%= render(:template => 'res/menu') %>
+
+<div class="container">
+	<div class="row my-5">
+		<div class="col-12">
+			<h2 class="text-center">
+				<%=Lang.get("Login_Title", cookies)%>
+			</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div class="prisijungimas">
+				<form action="" method="post">
+					<div>
+						<input type="text" 
+							   name="name" 
+							   maxlength="32"
+							   placeholder="<%=Lang.get("Name", cookies)%>"
+							   value="<%=@user_name%>" />
+					</div>
+					<div>
+						<input type="password" 
+							   name="pass" 
+							   autocomplete="new-password" 
+							   spellcheck="false" 
+							   novalidate="novalidate" 
+							   maxlength="256"
+							   placeholder="<%=Lang.get("Password", cookies)%>" />
+					</div>
+					<div class="text-right">
+						<input class="btn btn-dark"
+							   type="submit" 
+							   name="submit" 
+							   value="<%=Lang.get("Login", cookies)%>" />
+					</div>
+					<div>
+						<span style="color:darkred">
+							<%=@info_pass.html_safe%>
+						</span>
+					</div>
+					<div>
+						<a class="d-block" href="registracija">
+							<%=Lang.get("Registration", cookies)%>
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,20 @@
+<%= render(:template => 'res/header') %>
+
+<%= render(:template => 'res/menu', :locals => {
+	:setMenuName => 'Pagrindinis'
+}) %>
+
+<div class="container-fluid mt-5">
+	<div class="d-flex flex-wrap justify-content-around">
+		<div>
+			<div style="max-width:600px">
+				<%=Lang.get('Main:text', cookies).html_safe%>
+			</div>
+		</div>
+		<div>
+			<div style="max-width:600px">
+				<img class="w-100" src="<%=asset_path('main.jpg')%>" alt="pagrindine1" title="pagrindine1" />
+			</div>
+		</div>
+	</div>
+</div>

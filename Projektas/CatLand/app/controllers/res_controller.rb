@@ -1,0 +1,2 @@
+class ResController < ApplicationController
+end
