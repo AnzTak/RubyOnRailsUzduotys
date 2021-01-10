@@ -39,21 +39,33 @@ class Rectangle
 	end
 end
 
-print "Iveskite staciakampio ilgi: "
-ilgis = gets.chomp
-print "Iveskite staciakampio ploti: "
-plotis = gets.chomp
-print "Iveskite kampo koordinate x: "
-x = gets.chomp
-print "Iveskite kampo koordinate y: "
-y = gets.chomp
-print "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n"
+class PrintRectangle
+	private
+	attr_accessor :ilgis, :plotis, :x, :y
+	
+	public
+	def Input
+		print "Iveskite staciakampio ilgi: "
+		@ilgis = gets.chomp
+		print "Iveskite staciakampio ploti: "
+		@plotis = gets.chomp
+		print "Iveskite kampo koordinate x: "
+		@x = gets.chomp
+		print "Iveskite kampo koordinate y: "
+		@y = gets.chomp
+		print "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n"
+	end
+	
+	def Print
+		r = Rectangle.new(ilgis.to_f, plotis.to_f, x.to_f, y.to_f)
+		puts "Staciakampio plotas lygus: #{r.Plotas}"
+		puts "Staciakampio perimetras lygus: #{r.Perimetras}"
+		puts "Staciakampio istrizaines ilgis lygus: #{r.Istrizaine}"
+		puts "Staciakampio kampu koordinates lygios: #{r.Kampai}"
+		puts "Staciakampio istrizainiu susikirtimo tasko koordinates lygios: #{r.Centras}"
+	end
+end
 
-
-r = Rectangle.new(ilgis.to_f, plotis.to_f, x.to_f, y.to_f)
-puts "Staciakampio plotas lygus: #{r.Plotas}"
-puts "Staciakampio perimetras lygus: #{r.Perimetras}"
-puts "Staciakampio istrizaines ilgis lygus: #{r.Istrizaine}"
-puts "Staciakampio kampu koordinates lygios: #{r.Kampai}"
-puts "Staciakampio istrizainiu susikirtimo tasko koordinates lygios: #{r.Centras}"
-
+rect = PrintRectangle.new
+rect.Input
+rect.Print
